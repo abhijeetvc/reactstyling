@@ -1,0 +1,60 @@
+/* CSS in CSS
+
+.button{
+    cursor: pointer;
+    background: transparent;
+    padding: 10px;
+    border:2px solid yellowgreen;
+    transition: all 0.1s ease-in;
+}
+
+.button:hover{
+    background: seagreen;
+    color: chartreuse;
+}
+
+.unordered-list{
+    margin:0;
+    padding: 0;
+    list-style:none;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0
+}*/
+
+/*SASS in React
+
+.button{
+    cursor: pointer;
+    border: 2px solid tomato;
+    min-width: 70px;
+    background: transparent;
+    padding: 10px;
+    transition: all 0.1s ease-in;
+
+    &:hover {
+        background: yellowgreen;
+        color: yellow;
+    }
+}*/
+
+/* CSS Modules in React
+
+.button{
+    cursor: pointer;
+    border: 2px solid tomato;
+    min-width: 70px;
+    background: transparent;
+    padding: 10px;
+    transition: all 0.1s ease-in;
+
+    &:hover {
+        background: yellowgreen;
+        color: yellow;
+    }
+}*/
+
+/*Styled components*/
